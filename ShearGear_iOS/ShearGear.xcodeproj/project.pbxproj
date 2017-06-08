@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A31A33E1EDD78930077FB29 /* PlanController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A31A33D1EDD78930077FB29 /* PlanController.swift */; };
+		0AB7869E1ED6727000F6E68F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB7869D1ED6727000F6E68F /* AppDelegate.swift */; };
+		0AB786A31ED6727000F6E68F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AB786A11ED6727000F6E68F /* Main.storyboard */; };
+		0AB786A51ED6727000F6E68F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AB786A41ED6727000F6E68F /* Assets.xcassets */; };
+		0AB786A81ED6727000F6E68F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AB786A61ED6727000F6E68F /* LaunchScreen.storyboard */; };
+		0AB786B41ED6747A00F6E68F /* Museo300-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0AB786B11ED6747A00F6E68F /* Museo300-Regular.otf */; };
+		0AB786B51ED6747A00F6E68F /* Museo500-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0AB786B21ED6747A00F6E68F /* Museo500-Regular.otf */; };
+		0AB786B61ED6747A00F6E68F /* Museo700-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0AB786B31ED6747A00F6E68F /* Museo700-Regular.otf */; };
+		0AB786B81ED68A4A00F6E68F /* pucki33_52217_v2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0AB786B71ED68A4A00F6E68F /* pucki33_52217_v2.mp4 */; };
+		0AB786BA1ED6BD9300F6E68F /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB786B91ED6BD9300F6E68F /* HomeController.swift */; };
+		0AB786BD1ED6BE4C00F6E68F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB786BC1ED6BE4C00F6E68F /* MediaPlayer.framework */; };
+		0AB786BF1ED6C13900F6E68F /* SubscriptionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB786BE1ED6C13900F6E68F /* SubscriptionController.swift */; };
+		0AB786C11ED6C18500F6E68F /* SubscriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB786C01ED6C18500F6E68F /* SubscriptionCell.swift */; };
+		0AB786C31ED6CD1400F6E68F /* ProductDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB786C21ED6CD1400F6E68F /* ProductDetailController.swift */; };
+		0AB786C51ED7529900F6E68F /* PaymentDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB786C41ED7529900F6E68F /* PaymentDetailController.swift */; };
+		0AB786C71ED752BC00F6E68F /* SuccessController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB786C61ED752BC00F6E68F /* SuccessController.swift */; };
+		0AB786CB1ED75E8100F6E68F /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB786C91ED75E8100F6E68F /* Bolts.framework */; };
+		0AB786CC1ED75E8100F6E68F /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB786CA1ED75E8100F6E68F /* Parse.framework */; };
+		0AB786CE1ED75EAD00F6E68F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB786CD1ED75EAD00F6E68F /* AudioToolbox.framework */; };
+		0AB786D01ED75EB400F6E68F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB786CF1ED75EB400F6E68F /* CFNetwork.framework */; };
+		0AB786D21ED75EBC00F6E68F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB786D11ED75EBC00F6E68F /* CoreGraphics.framework */; };
+		0AB786D41ED75EC300F6E68F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB786D31ED75EC300F6E68F /* CoreLocation.framework */; };
+		0AB786D61ED75ECB00F6E68F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB786D51ED75ECB00F6E68F /* QuartzCore.framework */; };
+		0AB786D81ED75ED200F6E68F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB786D71ED75ED200F6E68F /* Security.framework */; };
+		0AB786DA1ED75EDA00F6E68F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB786D91ED75EDA00F6E68F /* StoreKit.framework */; };
+		0AB786DC1ED75EE200F6E68F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB786DB1ED75EE200F6E68F /* SystemConfiguration.framework */; };
+		0AB786DE1ED75EF500F6E68F /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB786DD1ED75EF500F6E68F /* libz.tbd */; };
+		0AB786E01ED75EFF00F6E68F /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB786DF1ED75EFF00F6E68F /* libsqlite3.tbd */; };
+		96D542751EE747B700E4025F /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D542741EE747B700E4025F /* LoginController.swift */; };
+		96D542771EE747E600E4025F /* SignupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D542761EE747E600E4025F /* SignupController.swift */; };
+		C6B329454C6FF459D06B7E12 /* Pods_ShearGear.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D545BED3D752CBA0CD4863 /* Pods_ShearGear.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A31A33D1EDD78930077FB29 /* PlanController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanController.swift; sourceTree = "<group>"; };
+		0AB7869A1ED6727000F6E68F /* ShearGear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShearGear.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AB7869D1ED6727000F6E68F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0AB786A21ED6727000F6E68F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0AB786A41ED6727000F6E68F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0AB786A71ED6727000F6E68F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0AB786A91ED6727000F6E68F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AB786B11ED6747A00F6E68F /* Museo300-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Museo300-Regular.otf"; sourceTree = "<group>"; };
+		0AB786B21ED6747A00F6E68F /* Museo500-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Museo500-Regular.otf"; sourceTree = "<group>"; };
+		0AB786B31ED6747A00F6E68F /* Museo700-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Museo700-Regular.otf"; sourceTree = "<group>"; };
+		0AB786B71ED68A4A00F6E68F /* pucki33_52217_v2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = pucki33_52217_v2.mp4; sourceTree = "<group>"; };
+		0AB786B91ED6BD9300F6E68F /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		0AB786BC1ED6BE4C00F6E68F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		0AB786BE1ED6C13900F6E68F /* SubscriptionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscriptionController.swift; sourceTree = "<group>"; };
+		0AB786C01ED6C18500F6E68F /* SubscriptionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscriptionCell.swift; sourceTree = "<group>"; };
+		0AB786C21ED6CD1400F6E68F /* ProductDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailController.swift; sourceTree = "<group>"; };
+		0AB786C41ED7529900F6E68F /* PaymentDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentDetailController.swift; sourceTree = "<group>"; };
+		0AB786C61ED752BC00F6E68F /* SuccessController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuccessController.swift; sourceTree = "<group>"; };
+		0AB786C91ED75E8100F6E68F /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		0AB786CA1ED75E8100F6E68F /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		0AB786CD1ED75EAD00F6E68F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0AB786CF1ED75EB400F6E68F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		0AB786D11ED75EBC00F6E68F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0AB786D31ED75EC300F6E68F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0AB786D51ED75ECB00F6E68F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0AB786D71ED75ED200F6E68F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		0AB786D91ED75EDA00F6E68F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		0AB786DB1ED75EE200F6E68F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0AB786DD1ED75EF500F6E68F /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		0AB786DF1ED75EFF00F6E68F /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		91C2C9450F4889D0B4B6F226 /* Pods-ShearGear.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShearGear.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShearGear/Pods-ShearGear.debug.xcconfig"; sourceTree = "<group>"; };
+		96D542741EE747B700E4025F /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		96D542761EE747E600E4025F /* SignupController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupController.swift; sourceTree = "<group>"; };
+		A436AEB0C59E350EF43C4BF7 /* Pods-ShearGear.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShearGear.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShearGear/Pods-ShearGear.release.xcconfig"; sourceTree = "<group>"; };
+		A7D545BED3D752CBA0CD4863 /* Pods_ShearGear.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShearGear.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AB786971ED6727000F6E68F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB786E01ED75EFF00F6E68F /* libsqlite3.tbd in Frameworks */,
+				0AB786DE1ED75EF500F6E68F /* libz.tbd in Frameworks */,
+				0AB786DC1ED75EE200F6E68F /* SystemConfiguration.framework in Frameworks */,
+				0AB786DA1ED75EDA00F6E68F /* StoreKit.framework in Frameworks */,
+				0AB786D81ED75ED200F6E68F /* Security.framework in Frameworks */,
+				0AB786D61ED75ECB00F6E68F /* QuartzCore.framework in Frameworks */,
+				0AB786D41ED75EC300F6E68F /* CoreLocation.framework in Frameworks */,
+				0AB786D21ED75EBC00F6E68F /* CoreGraphics.framework in Frameworks */,
+				0AB786D01ED75EB400F6E68F /* CFNetwork.framework in Frameworks */,
+				0AB786CE1ED75EAD00F6E68F /* AudioToolbox.framework in Frameworks */,
+				0AB786CB1ED75E8100F6E68F /* Bolts.framework in Frameworks */,
+				0AB786BD1ED6BE4C00F6E68F /* MediaPlayer.framework in Frameworks */,
+				0AB786CC1ED75E8100F6E68F /* Parse.framework in Frameworks */,
+				C6B329454C6FF459D06B7E12 /* Pods_ShearGear.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AB786911ED6727000F6E68F = {
+			isa = PBXGroup;
+			children = (
+				0AB7869C1ED6727000F6E68F /* ShearGear */,
+				0AB7869B1ED6727000F6E68F /* Products */,
+				0AB786BB1ED6BE4C00F6E68F /* Frameworks */,
+				900CE6CA5994C7ABAEA83934 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		0AB7869B1ED6727000F6E68F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AB7869A1ED6727000F6E68F /* ShearGear.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AB7869C1ED6727000F6E68F /* ShearGear */ = {
+			isa = PBXGroup;
+			children = (
+				0AB786C81ED75E8100F6E68F /* Frameworks */,
+				0AB786AF1ED6747A00F6E68F /* Resources */,
+				0AB7869D1ED6727000F6E68F /* AppDelegate.swift */,
+				0AB786B91ED6BD9300F6E68F /* HomeController.swift */,
+				0AB786BE1ED6C13900F6E68F /* SubscriptionController.swift */,
+				0AB786C01ED6C18500F6E68F /* SubscriptionCell.swift */,
+				0AB786C21ED6CD1400F6E68F /* ProductDetailController.swift */,
+				0A31A33D1EDD78930077FB29 /* PlanController.swift */,
+				0AB786C41ED7529900F6E68F /* PaymentDetailController.swift */,
+				0AB786C61ED752BC00F6E68F /* SuccessController.swift */,
+				96D542741EE747B700E4025F /* LoginController.swift */,
+				96D542761EE747E600E4025F /* SignupController.swift */,
+				0AB786A11ED6727000F6E68F /* Main.storyboard */,
+				0AB786A41ED6727000F6E68F /* Assets.xcassets */,
+				0AB786A61ED6727000F6E68F /* LaunchScreen.storyboard */,
+				0AB786A91ED6727000F6E68F /* Info.plist */,
+			);
+			path = ShearGear;
+			sourceTree = "<group>";
+		};
+		0AB786AF1ED6747A00F6E68F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0AB786B71ED68A4A00F6E68F /* pucki33_52217_v2.mp4 */,
+				0AB786B01ED6747A00F6E68F /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0AB786B01ED6747A00F6E68F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0AB786B11ED6747A00F6E68F /* Museo300-Regular.otf */,
+				0AB786B21ED6747A00F6E68F /* Museo500-Regular.otf */,
+				0AB786B31ED6747A00F6E68F /* Museo700-Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		0AB786BB1ED6BE4C00F6E68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AB786DF1ED75EFF00F6E68F /* libsqlite3.tbd */,
+				0AB786DD1ED75EF500F6E68F /* libz.tbd */,
+				0AB786DB1ED75EE200F6E68F /* SystemConfiguration.framework */,
+				0AB786D91ED75EDA00F6E68F /* StoreKit.framework */,
+				0AB786D71ED75ED200F6E68F /* Security.framework */,
+				0AB786D51ED75ECB00F6E68F /* QuartzCore.framework */,
+				0AB786D31ED75EC300F6E68F /* CoreLocation.framework */,
+				0AB786D11ED75EBC00F6E68F /* CoreGraphics.framework */,
+				0AB786CF1ED75EB400F6E68F /* CFNetwork.framework */,
+				0AB786CD1ED75EAD00F6E68F /* AudioToolbox.framework */,
+				0AB786BC1ED6BE4C00F6E68F /* MediaPlayer.framework */,
+				A7D545BED3D752CBA0CD4863 /* Pods_ShearGear.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0AB786C81ED75E8100F6E68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AB786C91ED75E8100F6E68F /* Bolts.framework */,
+				0AB786CA1ED75E8100F6E68F /* Parse.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		900CE6CA5994C7ABAEA83934 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91C2C9450F4889D0B4B6F226 /* Pods-ShearGear.debug.xcconfig */,
+				A436AEB0C59E350EF43C4BF7 /* Pods-ShearGear.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AB786991ED6727000F6E68F /* ShearGear */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AB786AC1ED6727000F6E68F /* Build configuration list for PBXNativeTarget "ShearGear" */;
+			buildPhases = (
+				E0FB776A6234EC76C3381119 /* [CP] Check Pods Manifest.lock */,
+				0AB786961ED6727000F6E68F /* Sources */,
+				0AB786971ED6727000F6E68F /* Frameworks */,
+				0AB786981ED6727000F6E68F /* Resources */,
+				D51FBBB7427C6983499D4260 /* [CP] Embed Pods Frameworks */,
+				DAD76C4AA6DE6B3A4606C6FC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShearGear;
+			productName = ShearGear;
+			productReference = 0AB7869A1ED6727000F6E68F /* ShearGear.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AB786921ED6727000F6E68F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Kevin;
+				TargetAttributes = {
+					0AB786991ED6727000F6E68F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = QZMP9RDL64;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0AB786951ED6727000F6E68F /* Build configuration list for PBXProject "ShearGear" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0AB786911ED6727000F6E68F;
+			productRefGroup = 0AB7869B1ED6727000F6E68F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AB786991ED6727000F6E68F /* ShearGear */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AB786981ED6727000F6E68F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB786B81ED68A4A00F6E68F /* pucki33_52217_v2.mp4 in Resources */,
+				0AB786B61ED6747A00F6E68F /* Museo700-Regular.otf in Resources */,
+				0AB786A81ED6727000F6E68F /* LaunchScreen.storyboard in Resources */,
+				0AB786A51ED6727000F6E68F /* Assets.xcassets in Resources */,
+				0AB786B41ED6747A00F6E68F /* Museo300-Regular.otf in Resources */,
+				0AB786B51ED6747A00F6E68F /* Museo500-Regular.otf in Resources */,
+				0AB786A31ED6727000F6E68F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D51FBBB7427C6983499D4260 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShearGear/Pods-ShearGear-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAD76C4AA6DE6B3A4606C6FC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShearGear/Pods-ShearGear-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0FB776A6234EC76C3381119 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AB786961ED6727000F6E68F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB786BF1ED6C13900F6E68F /* SubscriptionController.swift in Sources */,
+				0AB786BA1ED6BD9300F6E68F /* HomeController.swift in Sources */,
+				0AB786C11ED6C18500F6E68F /* SubscriptionCell.swift in Sources */,
+				96D542771EE747E600E4025F /* SignupController.swift in Sources */,
+				0AB786C51ED7529900F6E68F /* PaymentDetailController.swift in Sources */,
+				96D542751EE747B700E4025F /* LoginController.swift in Sources */,
+				0AB786C31ED6CD1400F6E68F /* ProductDetailController.swift in Sources */,
+				0AB786C71ED752BC00F6E68F /* SuccessController.swift in Sources */,
+				0A31A33E1EDD78930077FB29 /* PlanController.swift in Sources */,
+				0AB7869E1ED6727000F6E68F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0AB786A11ED6727000F6E68F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AB786A21ED6727000F6E68F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0AB786A61ED6727000F6E68F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AB786A71ED6727000F6E68F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0AB786AA1ED6727000F6E68F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0AB786AB1ED6727000F6E68F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0AB786AD1ED6727000F6E68F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91C2C9450F4889D0B4B6F226 /* Pods-ShearGear.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Maurice Stoll (QZMP9RDL64)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShearGear/Frameworks",
+				);
+				INFOPLIST_FILE = ShearGear/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.freebird.ShearGear;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0AB786AE1ED6727000F6E68F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A436AEB0C59E350EF43C4BF7 /* Pods-ShearGear.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Maurice Stoll (QZMP9RDL64)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShearGear/Frameworks",
+				);
+				INFOPLIST_FILE = ShearGear/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.freebird.ShearGear;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AB786951ED6727000F6E68F /* Build configuration list for PBXProject "ShearGear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AB786AA1ED6727000F6E68F /* Debug */,
+				0AB786AB1ED6727000F6E68F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AB786AC1ED6727000F6E68F /* Build configuration list for PBXNativeTarget "ShearGear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AB786AD1ED6727000F6E68F /* Debug */,
+				0AB786AE1ED6727000F6E68F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AB786921ED6727000F6E68F /* Project object */;
+}
