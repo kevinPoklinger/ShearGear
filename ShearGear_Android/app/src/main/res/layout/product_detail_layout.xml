@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/product_detail_scroll"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/super_view"
+            android:padding="8dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+                >
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/box"
+                    />
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Shear Gear"
+                        android:textAlignment="center"
+                        android:textSize="40dp"
+                        android:textColor="#011D70"
+                        android:layout_centerVertical="true"
+                        android:id="@+id/shear_gear_title"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="The tailor made custom engraved shear &amp; gear subscription that will change the way you groom forever"
+                        android:textSize="24dp"
+                        android:textColor="#149CBE"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Please choose and see available plans below.you can sign up right here in our 100% secure sign up form.if you have any problems filling out the form please contact us toll free at 1-888-222-9930 or send us an email to info@freebirdshears.com"
+                android:textSize="18dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Choose Your Preferences"
+                android:textSize="24dp"
+                android:textColor="#149CBE"
+                android:padding="8dp"
+                android:id="@+id/choose_your_preferrence"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="8dp"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Hand"
+                    android:textSize="20dp"
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/hand_title"
+                    />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/hand_spinner"
+                    >
+                </Spinner>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Blade Types"
+                    android:textSize="20dp"
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/blade_title"
+                    />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/blade_spinner"
+                    >
+                </Spinner>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Length Preferences"
+                    android:textSize="20dp"
+                    android:layout_marginTop="8dp"
+                    />
+
+                <io.apptik.widget.multiselectspinner.MultiSelectSpinner
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/length_spinner"
+                    >
+                </io.apptik.widget.multiselectspinner.MultiSelectSpinner>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="FREE Engraving"
+                    android:textSize="20dp"
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/free_engraving_title"
+                />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/free_engraving_spinner"
+                    >
+                </Spinner>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Learn More..."
+                    android:textAlignment="viewStart"
+                    android:layout_gravity="start"
+                    android:background="@android:color/transparent"
+                    android:textColor="#0A60FF"
+                    android:id="@+id/free_engraving_button"
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:layout_marginTop="8dp"
+                    android:textSize="20dp"
+                    android:hint="What would you like engraved?"
+                    android:id="@+id/like_engraved_input"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Whatever you choose will be engraved in a cool new font every month"
+                    android:id="@+id/like_engraved_comment"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Favorite Colors"
+                    android:textSize="20dp"
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/favorite_color_title"
+                    />
+
+                <io.apptik.widget.multiselectspinner.MultiSelectSpinner
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/favorite_color_spinner"
+                    >
+                </io.apptik.widget.multiselectspinner.MultiSelectSpinner>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Choose a minimum of 4 favorite colors. You can choose as many as you like."
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Garment Size"
+                    android:textSize="20dp"
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/garment_size_title"
+                    />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/garment_size_spinner"
+                    >
+                </Spinner>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Preferred Handle Type"
+                    android:textSize="20dp"
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/handle_type_title"
+                    />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/handle_type_spinner"
+                    >
+                </Spinner>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Learn More..."
+                    android:textAlignment="viewStart"
+                    android:layout_gravity="start"
+                    android:background="@android:color/transparent"
+                    android:textColor="#0A60FF"
+                    android:id="@+id/handle_type_button"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Continue"
+                    android:background="#ED433E"
+                    android:textColor="#ffffff"
+                    android:textSize="24dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:id="@+id/continue_button"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

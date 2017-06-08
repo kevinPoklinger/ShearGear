@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/super_view"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+                >
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/box"
+                    />
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Precision Script Choose Plan Details"
+                        android:textAlignment="center"
+                        android:textSize="40dp"
+                        android:textColor="#0A00FF"
+                        android:layout_centerVertical="true"
+                        android:id="@+id/shear_gear_title"
+                        />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Please choose and see available plans below.you can sign up right here in our 100% secure sign up form. If you have any problems filling out the form please contact us toll free at 1-888-222-9930 or send us an email to info@freebirdshears.com"
+                android:textColor="#458DFF"
+                android:textSize="18dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Monthy Plans"
+                android:layout_marginTop="16dp"
+                android:textSize="24dp"
+                android:textColor="#458DFF"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Month To Month $52.00"
+                android:textAlignment="viewStart"
+                android:layout_gravity="start"
+                android:textSize="20dp"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="8dp"
+                android:textColor="#458DFF"
+                android:id="@+id/first_plan"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="-Receive a Freebird custom engraved shear, NoWear© Else Groomer and Doggy Gear (such as bandannas) as well as a mystery gift or tool in every package.Freebird Shears now has a full scale, in-house garment printing operation. Specializing in new designer doggy clothes, we have kick-A$$ patterns that are sure to make you and your customers smile and are not available anywhere else.
+-The retail value of each box is at least $200.00. We will also make sure to include items in every box that you can sell to recover a part of your subscription.We are working together with one London’s greatest Illustrators to bring you the mot amazing doggy gear designs you and your customers have ever seen.
+-All shears are made out of a custom cobalt shear blend, and together with our expertise manufacturing techniques, will outlast most other 440-C steel shears on the market.
+-All shears are specifically created to improve your hand health and creative possibilities.
+-You will get shears, gear and other state of the art tools before they are available to anyone else, designed right here in the U.S.A. by German and American Craftsmen."
+                android:textSize="16dp"
+                android:textColor="#555555"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Annual Plan - Prepaid $599.00 - Best Value!"
+                android:textAlignment="viewStart"
+                android:layout_gravity="start"
+                android:textSize="20dp"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="8dp"
+                android:textColor="#458DFF"
+                android:id="@+id/second_plan"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Receive $500 worth in sign up bonuses including a Free Freebird Designer Shear of your choice and a 7' texturizing shear of your choice + 2 t-shirts and a suprise! You will receive a Freebird Custom Shear every month based on the preferenes that you have selected made out of a custom blend steel much stronger than most 440Csteels with free name engraving. These shears are specifically created by s to improvde your hand held &amp; creative possiblities. They you are also guaranteed to receive  extra gear such as doggy bandanas and clothes which you can sell to recover a part of your subscription cost. We just expanded into the dog garment business and will specialize in clothes that you can sell to your customers. Further you will receive a cool new grooming t-shirt or smock plus a mystery item every month. This plan has an incredeible value of over $3000.00!"
+                android:textSize="16dp"
+                android:textColor="#555555"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6 Month Plan - Prepaid $300.00 Fantastic Value!"
+                android:textAlignment="viewStart"
+                android:layout_gravity="start"
+                android:textSize="20dp"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="8dp"
+                android:textColor="#458DFF"
+                android:id="@+id/third_plan"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="This plan has everything the month to month plan has... AND you also receive $200.00 worth in sign up bonuses, including a free Freebird $159.00 7” texturizing shear, two t-shirts and a surprise."
+                android:textSize="16dp"
+                android:textColor="#555555"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3 Month Plan - Prepaid $155.00 Great Value!"
+                android:textAlignment="viewStart"
+                android:layout_gravity="start"
+                android:textSize="20dp"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="8dp"
+                android:textColor="#458DFF"
+                android:id="@+id/forth_plan"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="This plan has everything the month to month plan has... AND you also receive a free $159.00 7' texturizing shear as a sign on bonus."
+                android:textSize="16dp"
+                android:textColor="#555555"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Every Two Month Subscriptions"
+                android:layout_marginTop="16dp"
+                android:textSize="24dp"
+                android:textColor="#458DFF"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Every Other Month $56.00 (That's only $28.00 a month)"
+                android:textAlignment="viewStart"
+                android:layout_gravity="start"
+                android:textSize="20dp"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="8dp"
+                android:textColor="#458DFF"
+                android:id="@+id/fifth_plan"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="The same as the month to month monthly plan except you will receive a package every two month.You will receive a Freebird custom engraved shear, NoWear© Else Groomer and Doggy Gear (such as bandannas) as well as a mystery gift or tool in every package once every two months."
+                android:textSize="16dp"
+                android:textColor="#555555"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Annual Every Other Month Plan - Prepaid $336.00"
+                android:textAlignment="viewStart"
+                android:layout_gravity="start"
+                android:textSize="20dp"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="8dp"
+                android:textColor="#458DFF"
+                android:id="@+id/sixth_plan"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="This plan has everything the annual month to month plan has except you will receive a package every two month.With the prepaid plan you also receive $200.00 worth in sign up bonuses, including a $159.00 7' texturizing shear, one t-shirt and a surprise."
+                android:textSize="16dp"
+                android:textColor="#555555"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6 Month Every Other Month Plan - Prepaid $165.00"
+                android:textAlignment="viewStart"
+                android:layout_gravity="start"
+                android:textSize="20dp"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="8dp"
+                android:textColor="#458DFF"
+                android:id="@+id/seventh_plan"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="This plan has everything the annual 6 month plan has except you will receive a package every two month. With this plan you also receive a 7” $159.00 Freebird Texturizing Shear and a surprise as a sign on bonus."
+                android:textSize="16dp"
+                android:textColor="#555555"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/selected_plan"
+                android:layout_marginTop="16dp"
+                android:textColor="#000000"
+                android:textSize="28dp"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Continue"
+                android:background="#ED433E"
+                android:textColor="#ffffff"
+                android:textSize="24dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:id="@+id/continue_button"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
